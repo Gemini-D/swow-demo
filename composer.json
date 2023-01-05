@@ -30,7 +30,8 @@
         "hyperf/logger": "3.0.*",
         "hyperf/phar": "3.0.*",
         "hyperf/process": "3.0.*",
-        "hyperf/signal": "3.0.*",
+        "hyperf/server": "3.0.x-dev",
+        "hyperf/signal": "3.0.x-dev",
         "hyperf/utils": "3.0.*"
     },
     "require-dev": {
