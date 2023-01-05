@@ -17,6 +17,13 @@ class IndexController extends AbstractController
     {
         $user = $this->request->input('user', 'Hyperf');
         $method = $this->request->getMethod();
+        go(function () {
+            $i = 0;
+            while ($i++ < 10) {
+                sleep(1);
+                var_dump(time());
+            }
+        });
 
         return [
             'method' => $method,
